@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from "next/image";
 import { TypewriterEffect } from "../components/ui/typewriter-effect";
-import {TailwindcssButtons} from '../components/ui/TailwindcssButtons'
+
 
 export default function Home() {
   
@@ -57,7 +57,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center h-[40rem] ">
-      <div className='mb-5'>
+      <div className="mb-5">
         <TypewriterEffect words={words} showCursor={showCursor}/>
       </div>
       <div>

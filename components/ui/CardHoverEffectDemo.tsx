@@ -1,9 +1,8 @@
 'use client'
 
 import { HoverEffect } from "./card-hover-effect";
-import reactLogo from '../../app/images/react.png'
-import todo from '../../app/images/todo-list.png'
-import ciPaws from '../../app/images/ci-paws.png'
+import todo from "../../app/images/todo-list.png"
+
 
 export function CardHoverEffectDemo() {
   return (

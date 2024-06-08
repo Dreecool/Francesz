@@ -1,7 +1,7 @@
 // Page.jsx
 import { TextGenerateEffectDemo } from "@/components/ui/TextGenerateEffectDemo";
 import Image from "next/image";
-import fkad from '../images/fkad.jpg';
+import fkad from "../images/fkad.jpg";
 import { HoverBorderGradientDemo } from "@/components/ui/HoverBorderGradientDemo";
 
 const Page = () => {
@@ -14,7 +14,7 @@ const Page = () => {
 
       <div className="mt-10 border-rounded xl:flex md:ml-10 lg:ml-10">
         <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3 rounded-500">
-          <Image src={fkad} layout="responsive" width={200} height={200} className="rounded" />
+          <Image src={fkad} layout="responsive" alt={fkad.src} width={200} height={200} className="rounded" />
         </div>
         <div className="text-right w-3/4 md:w-4/5 lg:w-5/6">
           <p className="text-justify ps-5">
