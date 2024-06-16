@@ -18,13 +18,13 @@ const Page = () => {
         </div>
         <div className="text-right w-3/4 md:w-4/5 lg:w-5/6">
           <p className="text-justify ps-5">
-            As a Software Full Stack Developer, I bring a solid foundation in web development and an unyielding passion for technology. With a degree from Cebu Technological University and training from Kodego's full stack program, I'm well-prepared to tackle diverse challenges in the tech world.
+            As a Software Full Stack Developer, I bring a solid foundation in web development and an unyielding passion for technology. With a degree from Cebu Technological University and training from Kodego&apos;s full stack program, I&apos;m well-prepared to tackle diverse challenges in the tech world.
           </p>
           <p className="text-justify ps-5 mt-4">
-            My expertise lies in crafting captivating user interfaces using HTML, CSS, JavaScript, Bootstrap, MaterialUI, React.js, Next.js. On the server side, I excel in Node.js, Express.js, Java, Spring Boot, while my database management skills encompass MongoDB and MySQL. I also have a basic understanding of PHP and Laravel, which I'm actively working to expand. This versatile skill set allows me to deliver seamless and elegant solutions for a wide range of web development projects.
+            My expertise lies in crafting captivating user interfaces using HTML, CSS, JavaScript, Bootstrap, MaterialUI, React.js, Next.js. On the server side, I excel in Node.js, Express.js, Java, Spring Boot, while my database management skills encompass MongoDB and MySQL. I also have a basic understanding of PHP and Laravel, which I&apos;m actively working to expand. This versatile skill set allows me to deliver seamless and elegant solutions for a wide range of web development projects.
           </p>
           <p className="text-justify ps-5 mt-4">
-            But my journey doesn't stop here. I'm constantly expanding my skill set, delving into a wide range of languages and frameworks, from Python to Django, C# to ASP.NET, Ruby on Rails, and more. My dedication to staying at the forefront of industry trends drives my continuous learning.
+            But my journey doesn&apos;t stop here. I&apos;m constantly expanding my skill set, delving into a wide range of languages and frameworks, from Python to Django, C# to ASP.NET, Ruby on Rails, and more. My dedication to staying at the forefront of industry trends drives my continuous learning.
           </p>
           <p className="text-justify ps-5 mt-4">
             My effective communication and time management skills enable me to excel as both an independent developer and a valuable team collaborator. In the dynamic world of technology, I am not merely an observer but an active creator, a continuous learner, and a passionate innovator.
