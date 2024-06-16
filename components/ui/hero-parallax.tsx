@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { StaticImageData } from "next/image";
 
 export const HeroParallax = ({
   products,
@@ -16,7 +17,7 @@ export const HeroParallax = ({
   products: {
     title: string;
     link: string;
-    thumbnail: string;
+    thumbnail: StaticImageData; // Change type to StaticImageData
   }[];
 }) => {
   const firstRow = products.slice(0, 5);
@@ -57,8 +58,8 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      style={{marginTop: '300px'}}
-      className="xl:w-full h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      style={{ marginTop: '300px' }}
+      className="xl:w-full h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -79,7 +80,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        <motion.div className="flex flex-row mb-20 space-x-20">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -104,7 +105,7 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
         Projects <br /> I Built.
       </h1>
@@ -119,7 +120,7 @@ export const ProductCard = ({
   product: {
     title: string;
     link: string;
-    thumbnail: string;
+    thumbnail: StaticImageData; // Change type to StaticImageData
   };
   translate: MotionValue<number>;
 }) => {
@@ -136,12 +137,12 @@ export const ProductCard = ({
     >
       <Link
         href={product.link}
-        className="block group-hover/product:shadow-2xl "
+        className="block group-hover/product:shadow-2xl"
       >
         <Image
           src={product.thumbnail}
           layout="fill"
-          objectFit="auto"
+          objectFit="cover"
           className="absolute h-full w-full inset-0"
           alt={product.title}
         />
