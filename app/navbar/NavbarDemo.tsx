@@ -30,28 +30,28 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Algochurn"
-              href="https://algochurn.com"
+              title="Todo List"
+              href="https://todo-pink-seven.vercel.app/"
               src={testImage.src}
-              description="Prepare for tech interviews like never before."
+              description="This intuitive and user-friendly tool helps you manage your tasks efficiently."
             />
             <ProductItem
-              title="Tailwind Master Kit"
-              href="https://tailwindmasterkit.com"
+              title="Todo List"
+              href="https://todo-pink-seven.vercel.app/"
               src={testImage.src}
-              description="Production ready Tailwind css components for your next project"
+              description="This intuitive and user-friendly tool helps you manage your tasks efficiently."
             />
             <ProductItem
-              title="Moonbeam"
-              href="https://gomoonbeam.com"
+              title="Todo List"
+              href="https://todo-pink-seven.vercel.app/"
               src={testImage.src}
-              description="Never write from scratch again. Go from idea to blog in minutes."
+               description="This intuitive and user-friendly tool helps you manage your tasks efficiently."
             />
             <ProductItem
-              title="Rogue"
-              href="https://userogue.com"
+              title="Todo List"
+              href="https://todo-pink-seven.vercel.app/"
               src={testImage.src}
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              description="This intuitive and user-friendly tool helps you manage your tasks efficiently."
             />
           </div>
         </MenuItem>
